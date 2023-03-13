@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+	<ui:composition template="">
+	</ui:composition>
+	
+	<head>
+  <title>Connexion</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" style = "text/css" href="style.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Link entre étudiants et entreprises</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="Accueil.xhtml">Accueil</a></li>
+       <li><a href="Espace_Etudiant.xhtml">Espace etudiant</a></li>
+      <li><a href="Espace_Entreprise.xhtml">Espace entreprise</a></li>
+       <li><a href="http://incubation.ugb.sn/l">Incubateur</a></li>
+        <li><a href="https://3fpt.sn/">3FPT</a></li>
+         <li><a href="https://orangedigitalcenter.sn/l">Orange Digital Center</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="connexion.xhtml"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="connexion.xhtml"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</nav>
+ 
+ 
+  <div class="container con margetop"> 
+ 	<div class="contenu1 ">
+ 		 <h2>S'inscrire</h2>
+  		 	<form class="form-horizontal" action="/action_page.php">
+						   <div class="form-group">
+						      <label class="control-label col-sm-2" for="email">Nom:</label>
+						      <div class="col-sm-10">
+						        <input type="text" class="form-control" id="nom" placeholder="Entrer votre nom" name="nom" />
+						      </div>
+						      </div>  
+						      <div class="form-group">
+						      <label class="control-label col-sm-2" for="email">Prénom:</label>
+						      <div class="col-sm-10">
+						        <input type="text" class="form-control" id="prenom" placeholder="Entrer votre email" name="email" />
+						      </div>
+						      </div> 
+						    <div class="form-group">
+						      <label class="control-label col-sm-2" for="email">Email:</label>
+						      <div class="col-sm-10">
+						        <input type="email" class="form-control" id="email" placeholder="Entre email" name="email" />
+						      </div>
+						    </div>
+						    <div class="form-group">
+						      <label class="control-label col-sm-2" for="pwd">Password:</label>
+						      <div class="col-sm-10">          
+						        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd" />
+						      </div>
+						    </div>
+						    <div class="form-group">
+						      <label class="control-label col-sm-2" for="email">Domaine:</label>
+						      <div class="col-sm-10">
+						        <input type="text" class="form-control" id="nom" placeholder="Entrer votre domaine" name="nom" />
+						      </div>
+						      </div> 
+						    <div class="form-group">        
+						      <div class="col-sm-offset-2 col-sm-10">
+						        <button type="submit" class="btn btn-success">Valider</button>
+						      </div>
+						    </div>
+						     <p> NB: la section domaine concerne uniquement les entreprises </p>
+						 </form>
+					</div>
+
+					<div class="contenu2">
+					  <h2>Se connecter</h2>
+					  <form class="form-horizontal" action="/action_page.php">
+					    <div class="form-group">
+					      <label class="control-label col-sm-2" for="email">Email:</label>
+					      <div class="col-sm-10">
+					        <input type="email" class="form-control" id="email" placeholder="Entrer votre email" name="email" />
+					      </div>
+					    </div>
+					    <div class="form-group">
+					      <label class="control-label col-sm-2" for="pwd">Password:</label>
+					      <div class="col-sm-10">          
+					        <input type="password" class="form-control" id="pwd" placeholder="Entrer votre mot de passe" name="pwd" />
+					      </div>
+					    </div>
+					    <div class="form-group">        
+					      <div class="col-sm-offset-2 col-sm-10">
+					        <div class="checkbox">
+					          <label><input type="checkbox" name="remember" /> Remember me</label>
+					        </div>
+					      </div>
+					    </div>
+					    <div class="form-group">        
+					      <div class="col-sm-offset-2 col-sm-10">
+					        <button type="submit" class="btn btn-success">Valider</button>
+					      </div>
+					    </div>
+					  </form>
+					</div>
+				</div>
+  
+  
+ 			<footer id="myfooter">
+                <p>Copyright © <strong> AT</strong>| 2023 </p>
+         	</footer>
+</body>
+</html>

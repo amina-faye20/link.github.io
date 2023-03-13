@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+	<ui:composition template="">
+	</ui:composition>
+	
+	<head>
+  <title>Accueil</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" style = "text/css" href="style.css" />
+   <script src="script.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+ 
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Link entre étudiants et entreprises</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="Accueil.xhtml">Accueil</a></li>
+       <li><a href="Espace_Etudiant.xhtml">Espace etudiant</a></li>
+      <li><a href="Espace_Entreprise.xhtml">Espace entreprise</a></li>
+       <li><a href="http://incubation.ugb.sn/ ">Incubateur</a></li>
+        <li><a href="https://3fpt.sn/">3FPT</a></li>
+         <li><a href="https://orangedigitalcenter.sn/">Orange Digital Center</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="connexion.xhtml"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="connexion.xhtml"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</nav>
+
+<h1 class="margetop"><marquee>Ce site permet de faciliter l'insertion professionnelle des étudiants de l'UGB tout en leur mettant en contact direct avec les entreprises et leur préparer 
+			de ce qui leur attend.
+</marquee></h1>
+
+<div class="contenu">  
+  	<div id="part1">
+       	<div class="slider">
+            	<img src="image1.jpeg" alt="" class="img active" />
+            	<img src="image2.jpg" alt="" class="img active" />
+           		<img src="image3.jpg" alt="" class="img active" />         
+            <div class="next">
+                <i class="fas fa-chevron-circle-right"></i>
+            </div>
+            <div class="prev">
+                <i class="fas fa-chevron-circle-left"></i>
+            </div>
+        </div>
+    </div>
+   <div class="info">
+	 <div class="information">
+       <h2> <span class="glyphicon glyphicon-info-sign"></span> Information</h2>
+ 			<p class="text"> 
+               Le 21 septembre 2022 au King Fahd Palace, Fatoumata Bintou Sonko, Aïssatou Diack Konté, Khady Seck,
+                Youssouf Sarr et Aicha Séne, étudiants en Master 2 de technologie agroalimentaire de l’UFR S2ATA on.... 
+                <button type="button" class="btn btn-success"> Lire la suite </button></p> 
+            <hr/> 
+            <p class="text"> 
+               Dans le cadre du Service Commun de la documentation, la Bibliothèque Centrale de l’Université Gaston 
+               Berger de Saint Louis a organisé, du 26 au 28 octobre 2022, au CEA-MITIC, un Atelier sur la mise e.... 
+               <button type="button" class="btn btn-success"> Lire la suite </button>
+           </p>
+            <hr/> 
+           <p class="text"> 
+               Dans le cadre du Service Commun de la documentation, la Bibliothèque Centrale de l’Université Gaston
+                Berger de Saint Louis a organisé, du 26 au 28 octobre 2022, au CEA-MITIC, un Atelier sur la mise e.... 
+                <button type="button" class="btn btn-success"> Lire la suite </button>
+           </p>  <br/> 
+  	</div> 
+  </div>
+  <footer id="myfooter">
+      <p>Copyright © <strong> AT</strong>| 2023 </p>
+   </footer>
+ 
+</div>
+</body>  
+</html>
